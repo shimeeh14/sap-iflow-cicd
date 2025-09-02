@@ -15,7 +15,7 @@ steps:
     credentialsId: 'service-key-source'
     integrationPackageId: 'DEMO_PACKAGE'       # your package ID
     integrationFlowId: 'demo_Iflow'       # from MANIFEST.MF
-    integrationFlowFilePath: './integration-content/artifacts/demo_Iflow'
+    integrationFlowFilePath: './integration-content/artifacts'
     verbose: true
  
   integrationArtifactDeploy:
