@@ -16,6 +16,7 @@ steps:
     integrationPackageId: 'DEMO_PACKAGE'       # your package ID
     integrationFlowId: 'demo_Iflow'       # from MANIFEST.MF
     integrationFlowFilePath: 'demo_Iflow.zip'
+    verbose: true
  
   integrationArtifactDeploy:
     host: 'https://uat-2fp4a4tq.integrationsuite-trial.cfapps.us10-001.hana.ondemand.com'
