@@ -1,0 +1,23 @@
+general:
+  productiveBranch: 'main'
+ 
+stages:
+  Upload:
+    enabled: true
+  Deploy:
+    enabled: true
+  'Integration Test':
+    enabled: false
+ 
+steps:
+  integrationArtifactUpload:
+    host: 'https://dev-i77t4c8n.integrationsuite-trial.cfapps.us10-001.hana.ondemand.com'
+    credentialsId: 'service-key-source'
+    integrationPackageId: 'DEMO_PACKAGE'       # your package ID
+    integrationFlowId: 'demo_Iflow'       # from MANIFEST.MF
+    integrationFlowFilePath: 'demo_Iflow.zip'
+ 
+  integrationArtifactDeploy:
+    host: 'https://uat-2fp4a4tq.integrationsuite-trial.cfapps.us10-001.hana.ondemand.com'
+    credentialsId: 'service-key-target'
+    integrationFlowId: 'demo_Iflow'
