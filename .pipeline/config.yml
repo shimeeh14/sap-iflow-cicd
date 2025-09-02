@@ -15,7 +15,7 @@ steps:
     credentialsId: 'api-key-soruce'
     integrationPackageId: 'DEMOPACKAGE'       # your package ID
     integrationFlowId: 'filter_iflow'       # from MANIFEST.MF
-    integrationFlowFilePath: 'filter_iflow.zip'
+    integrationFlowFilePath: 'filter_iflow'
  
   integrationArtifactDeploy:
     host: 'https://uat-2fp4a4tq.integrationsuite-trial.cfapps.us10-001.hana.ondemand.com'
