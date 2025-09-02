@@ -11,7 +11,7 @@ stages:
  
 steps:
   integrationArtifactUpload:
-    host: 'https://dev-i77t4c8n.integrationsuite-trial.cfapps.us10-001.hana.ondemand.com'
+    host: 'https://dev-i77t4c8n.it-cpitrial05.cfapps.us10-001.hana.ondemand.com'
     credentialsId: 'source-api-key'
     integrationPackageId: 'DEMOPACKAGE'       # your package ID
     integrationFlowId: 'filter_iflow'       # from MANIFEST.MF
