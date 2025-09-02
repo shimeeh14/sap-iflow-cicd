@@ -14,11 +14,10 @@ steps:
     host: 'https://dev-i77t4c8n.integrationsuite-trial.cfapps.us10-001.hana.ondemand.com'
     credentialsId: 'service-key-source'
     integrationPackageId: 'DEMO_PACKAGE'       # your package ID
-    integrationFlowId: 'demo_Iflow'       # from MANIFEST.MF
-    integrationFlowFilePath: './integration-content/artifacts'
-    verbose: true
+    integrationFlowId: 'filter_iflow'       # from MANIFEST.MF
+    integrationFlowFilePath: 'filter_iflow.zip'
  
   integrationArtifactDeploy:
     host: 'https://uat-2fp4a4tq.integrationsuite-trial.cfapps.us10-001.hana.ondemand.com'
     credentialsId: 'service-key-target'
-    integrationFlowId: 'demo_Iflow'
+    integrationFlowId: 'filter_iflow'
